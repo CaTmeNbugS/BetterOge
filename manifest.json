@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "BetterOge",
+    "version": "1.0",
+    "description": "Красивый внешний вид для сайта решу огэ",
+    "icons": {
+        "128": "128.png"
+    },
+    "content_scripts": [
+        {
+        "matches": ["https://oge.sdamgia.ru/*", "https://math-oge.sdamgia.ru/*","https://phys-oge.sdamgia.ru/*","https://chem-oge.sdamgia.ru/*", "https://inf-oge.sdamgia.ru/*"],
+        "type": "module",
+        "js": ["app.js","popup.js"]
+        }
+    ],
+    "browser_action": {
+        "default_title": "BetterOge"
+    }
+}
