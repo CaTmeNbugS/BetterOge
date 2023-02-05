@@ -8,7 +8,7 @@
     },
     "content_scripts": [
         {
-        "matches": ["https://oge.sdamgia.ru/*", "https://math-oge.sdamgia.ru/*","https://phys-oge.sdamgia.ru/*","https://chem-oge.sdamgia.ru/*", "https://inf-oge.sdamgia.ru/*"],
+        "matches": ["https://oge.sdamgia.ru/*", "https://math-oge.sdamgia.ru/*","https://phys-oge.sdamgia.ru/*","https://chem-oge.sdamgia.ru/*", "https://inf-oge.sdamgia.ru/*", "https://rus-oge.sdamgia.ru/*", "https://ruso-oge.sdamgia.ru/*", "https://inf-oge.sdamgia.ru/*", "https://bio-oge.sdamgia.ru/*", "https://en-oge.sdamgia.ru/*", "https://geo-oge.sdamgia.ru/*", "https://en-oge.sdamgia.ru/*", "https://de-oge.sdamgia.ru/*", "https://soc-oge.sdamgia.ru/*", "https://fr-oge.sdamgia.ru/*", "https://lit-oge.sdamgia.ru/*", "https://sp-oge.sdamgia.ru/*", "https://hist-oge.sdamgia.ru/*"],
         "type": "module",
         "js": ["app.js","popup.js"]
         }
