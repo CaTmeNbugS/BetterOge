@@ -946,9 +946,7 @@ nav.SubjectMenu.SubjectMenu_desktop.PageLayout-Nav > a:hover {
 }
 `
     function App() {
-        console.log(localStorage.getItem('customeTheme'))
         if(localStorage.getItem('customeTheme') == 'true' ? true : false){
-            console.log('workfirst')
         const Wrapper = document.querySelector('.wrapper');
         if(Wrapper != null){
             const Search = window.location.search
@@ -1003,7 +1001,6 @@ nav.SubjectMenu.SubjectMenu_desktop.PageLayout-Nav > a:hover {
                   document.querySelector('.prob_list').style.marginTop = '10px';
             }
         }
-        console.log('work')
         const styles = document.createElement('style');
         styles.textContent =  style;
         document.querySelector('body').append(styles);
